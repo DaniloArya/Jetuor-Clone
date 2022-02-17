@@ -18,3 +18,39 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Proxima Nova Light";
+  src: url("../public/fonts/Proxima-Nova-Light.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("../public/fonts/Proxima-Nova-Regular.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova SemiBold";
+  src: url("../public/fonts/Proxima-Nova-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("../public/fonts/Proxima-Nova-Bold.otf");
+}
+
+.proxima-nova-light {
+  font-family: "Proxima Nova Light";
+}
+
+.proxima-nova-regular {
+  font-family: "Proxima Nova Regular";
+}
+
+.proxima-nova-semibold {
+  font-family: "Proxima Nova SemiBold";
+}
+
+.proxima-nova-bold {
+  font-family: "Proxima Nova Bold";
+}
