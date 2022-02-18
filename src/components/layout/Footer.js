@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
-const Footer = ()=>{
+const Footer = ({data})=>{
+  console.log(data)
   return (
     <footer className="flex flex-col p-5 gap-10 items-center bg-black text-white text-center proxima-nova-light text-xs">
       <div className="flex flex-col p-4 pt-16 gap-3 uppercase tracking-[0.2rem]">
