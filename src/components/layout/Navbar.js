@@ -16,13 +16,13 @@ const Navbar = () => {
   return (
     <nav className="fixed z-50 w-full h-20 p-3 lg:p-5 lg:px-12 flex justify-between bg-gradient-to-b from-black text-white proxima-nova-regular">
       <Link href="/">
-        <a aria-hidden="true">
+        <a>
           <div className={`relative z-10 h-full w-56 transition-all duration-700 ${effect?'translate-y-0 opacity-100':'-translate-y-20 opacity-0'}`}>
             <Image src="/logoJetour.svg" layout="fill" alt="logo Jetour" />
           </div>
         </a>
       </Link>
-      <button className="relative z-10 pr-3 lg:hidden" onClick={()=>(setShowMenu(!showMenu))}>
+      <button className="relative z-10 pr-3 lg:hidden" aria-label="Menu" onClick={()=>(setShowMenu(!showMenu))}>
         <svg width="36" height="36" viewBox="0 0 36 36" fill="white" xmlns="http://www.w3.org/2000/svg">
           <path d="M4.5 12V9H31.5V12H4.5Z" />
           <path d="M4.5 19.5H31.5V16.5H4.5V19.5Z" />
